@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>فروشگاه ساده من</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>فروشگاه من</h1>
+      <nav>
+        <a href="#home">خانه</a>
+        <a href="#products">محصولات</a>
+        <a href="#about">درباره ما</a>
+        <a href="#contact">تماس</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>به فروشگاه ما خوش آمدید</h2>
+    <p>بهترین اجناس با مناسب‌ترین قیمت‌ها</p>
+    <input type="text" id="searchBox" placeholder="جستجو در محصولات...">
+  </section>
+
+  <section id="products" class="products">
+    <h2>محصولات</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="https://source.unsplash.com/300x300/?tshirt" alt="تی‌شرت">
+        <h3>تی‌شرت مردانه</h3>
+        <p class="price">200</p>
+        <button class="add-btn">افزودن به سبد</button>
+      </div>
+
+      <div class="product">
+        <img src="https://source.unsplash.com/300x300/?bag" alt="کیف">
+        <h3>کیف دستی</h3>
+        <p class="price">350</p>
+        <button class="add-btn">افزودن به سبد</button>
+      </div>
+
+      <div class="product">
+        <img src="https://source.unsplash.com/300x300/?watch" alt="ساعت">
+        <h3>ساعت مچی</h3>
+        <p class="price">480</p>
+        <button class="add-btn">افزودن به سبد</button>
+      </div>
+
+      <div class="product">
+        <img src="https://source.unsplash.com/300x300/?headphones" alt="هدفون">
+        <h3>هدفون بلوتوث</h3>
+        <p class="price">270</p>
+        <button class="add-btn">افزودن به سبد</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="cart">
+    <h2>🛒 سبد خرید</h2>
+    <ul id="cartList"></ul>
+    <p id="total">جمع کل: 0 تومان</p>
+  </section>
+
+  <section id="about" class="about">
+    <h2>درباره ما</h2>
+    <p>ما در این فروشگاه سعی داریم بهترین محصولات را با کیفیت بالا و قیمت مناسب در اختیار شما قرار دهیم.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>تماس با ما</h2>
+    <p>ایمیل: info@example.com</p>
+    <p>شماره: ۰۹۱۲۱۲۳۴۵۶۷</p>
+  </section>
+
+  <footer>
+    <p>© 2025 فروشگاه من | طراحی شده با ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
